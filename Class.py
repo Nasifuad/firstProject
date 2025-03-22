@@ -29,5 +29,4 @@ llist = LinkedList()
 llist.insert(1)
 llist.insert(2)
 llist.insert(3)
-
 llist.display()
