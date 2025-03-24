@@ -1,8 +1,10 @@
-class test:
-    def __init__(self):
-        print("hello")
-        print(self)
-        
-name=test
-name()
-print(name)
+for i in range(10):
+    for j in range(i):
+        print("*",end="")
+    print()
+
+
+for i in range(10):
+    for j in range(10-i):
+        print("*",end="")
+    print()
